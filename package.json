@@ -4,6 +4,7 @@
   "repository": {
     "url": "git+https://github.com/JustinTChen/TooTripsy.git"
   },
+  "homepage": "https://JustinTChen.github.io/TooTripsy",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
