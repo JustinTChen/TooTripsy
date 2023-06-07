@@ -1,9 +1,6 @@
 {
   "name": "tootripsy",
   "version": "1.0.0",
-  "repository": {
-    "url": "git+https://github.com/JustinTChen/TooTripsy.git"
-  },
   "homepage": "https://JustinTChen.github.io/TooTripsy",
   "private": true,
   "dependencies": {
