@@ -17,3 +17,29 @@ export const VIDEO5 = "Zy_NnCC4aas"
 export const VIDEO6 = "beyU7mtSX0k"
 export const VIDEO7 = "ZNmzw6TAwXQ"
 export const VIDEO8 = "dYuvDA_13iU"
+
+// Image Gallery
+export const IMAGE_SRCS = [
+    "Jeep.jpg",
+    "Tilden_Golf_Course.jpg",
+    "Tilden_golf.jpg",
+    "Kanazawa.jpg",
+    "Kyoto_Hotel.jpg",
+    "Kyoto_Temple.jpg",
+    "Nagano_Hotel.jpg",
+    "Nara_Temple.jpg",
+    "Osaka_Castle.jpg",
+    "Sunset_Coast.jpg",
+]
+export const IMAGE_CAPTIONS = [
+    "Product photo taken for Jeep",
+    "Event photos taken for Tilden Golf Course",
+    "Event photos taken for Tilden Golf Course",
+    "Photos taken for the city of Kanazawa, Japan",
+    "Photos taken for local inn in Kyoto, Japan",
+    "Photos taken for the city of Kyoto, Japan",
+    "Photos taken for the city of Jigokudani (Snow Monkey) Park, Japan",
+    "Photos taken for the city of Nara, Japan",
+    "Photos taken for the city of Osaka, Japan",
+    "Photo taken for the neighborhood of Inner Sunset, San Francisco",
+]

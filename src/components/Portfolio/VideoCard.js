@@ -4,7 +4,6 @@ import YouTube from 'react-youtube';
 
 export default function VideoCard(props) {
     const { videoId, entity, location} = props;
-    console.log(videoId, entity, location);
 
     let caption = ""
     if (entity !== undefined && location === undefined) {
