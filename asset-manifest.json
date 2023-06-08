@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.29518b3a.css",
-    "main.js": "/static/js/main.9bbd7e49.js",
+    "main.css": "/static/css/main.229ae165.css",
+    "main.js": "/static/js/main.c2b20d04.js",
     "static/js/415.a87f15e6.chunk.js": "/static/js/415.a87f15e6.chunk.js",
     "static/js/787.a99a91a1.chunk.js": "/static/js/787.a99a91a1.chunk.js",
+    "static/media/Nagano_Hotel.jpg": "/static/media/Nagano_Hotel.317feb5a36a983175acb.jpg",
+    "static/media/Kyoto_Hotel.jpg": "/static/media/Kyoto_Hotel.2cd3fa251172faca403f.jpg",
+    "static/media/Kanazawa.jpg": "/static/media/Kanazawa.7c9b2bc60021e4a869eb.jpg",
+    "static/media/Nara_Temple.jpg": "/static/media/Nara_Temple.d07c0e78221deb8498a8.jpg",
+    "static/media/Osaka_Castle.jpg": "/static/media/Osaka_Castle.162f1f32891756877142.jpg",
+    "static/media/Kyoto_Temple.jpg": "/static/media/Kyoto_Temple.df149fbe465f62dee1c6.jpg",
+    "static/media/Tilden_Golf.jpg": "/static/media/Tilden_Golf.1705e167c0d7d84f46f6.jpg",
+    "static/media/Tilden_Golf_Course.jpg": "/static/media/Tilden_Golf_Course.b56a0b0370a3fd13c860.jpg",
+    "static/media/Jeep.jpg": "/static/media/Jeep.b0ce0ce0f0ff3df0a3fe.jpg",
+    "static/media/Sunset_Coast.jpg": "/static/media/Sunset_Coast.a98947111a16e48ac1a3.jpg",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.29518b3a.css.map": "/static/css/main.29518b3a.css.map",
-    "main.9bbd7e49.js.map": "/static/js/main.9bbd7e49.js.map",
+    "main.229ae165.css.map": "/static/css/main.229ae165.css.map",
+    "main.c2b20d04.js.map": "/static/js/main.c2b20d04.js.map",
     "415.a87f15e6.chunk.js.map": "/static/js/415.a87f15e6.chunk.js.map",
     "787.a99a91a1.chunk.js.map": "/static/js/787.a99a91a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29518b3a.css",
-    "static/js/main.9bbd7e49.js"
+    "static/css/main.229ae165.css",
+    "static/js/main.c2b20d04.js"
   ]
 }
