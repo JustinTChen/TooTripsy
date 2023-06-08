@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import PhotoGallery from './PhotoGallery';
 import VideosTabs from './VideosTab';
 
 const WorksTabs = () => {
@@ -27,7 +28,7 @@ const WorksTabs = () => {
       </div>
       <div>
         {activeTab === 1 && <div><VideosTabs /></div>}
-        {activeTab === 2 && <div>Content for Tab 2</div>}
+        {activeTab === 2 && <div><PhotoGallery /></div>}
       </div>
     </div>
   );
