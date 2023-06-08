@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.229ae165.css",
-    "main.js": "/static/js/main.e2999a8d.js",
+    "main.js": "/static/js/main.31627bf6.js",
     "static/js/415.a87f15e6.chunk.js": "/static/js/415.a87f15e6.chunk.js",
     "static/js/787.a99a91a1.chunk.js": "/static/js/787.a99a91a1.chunk.js",
     "static/media/Nagano_Hotel.jpg": "/static/media/Nagano_Hotel.317feb5a36a983175acb.jpg",
@@ -20,12 +20,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.229ae165.css.map": "/static/css/main.229ae165.css.map",
-    "main.e2999a8d.js.map": "/static/js/main.e2999a8d.js.map",
+    "main.31627bf6.js.map": "/static/js/main.31627bf6.js.map",
     "415.a87f15e6.chunk.js.map": "/static/js/415.a87f15e6.chunk.js.map",
     "787.a99a91a1.chunk.js.map": "/static/js/787.a99a91a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.229ae165.css",
-    "static/js/main.e2999a8d.js"
+    "static/js/main.31627bf6.js"
   ]
 }
