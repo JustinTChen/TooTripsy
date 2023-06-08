@@ -4,6 +4,8 @@ import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
+import YouTube from 'react-youtube';
+
 import { INTRO_VIDEO } from '../../constants.js'
 
 function About() {
@@ -36,15 +38,7 @@ function About() {
         <h1 className="project-heading">
           WHO WE <strong className="purple"> ARE </strong>
         </h1>
-        <iframe
-          title="YouTube Video" 
-          width="560" 
-          height="315" 
-          src={INTRO_VIDEO}
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-        </iframe>
+        <YouTube videoId={INTRO_VIDEO} />
         
       </Container>
     </Container>

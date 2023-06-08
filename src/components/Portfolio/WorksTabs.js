@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-const TabbedContainer = () => {
+import VideosTabs from './VideosTab';
+
+const WorksTabs = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   const handleTabClick = (tab) => {
@@ -23,12 +25,12 @@ const TabbedContainer = () => {
           Photos
         </button>
       </div>
-      <div className="tab-content">
-        {activeTab === 1 && <div>Content for Tab 1</div>}
+      <div>
+        {activeTab === 1 && <div><VideosTabs /></div>}
         {activeTab === 2 && <div>Content for Tab 2</div>}
       </div>
     </div>
   );
 };
 
-export default TabbedContainer;
+export default WorksTabs;

@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import TabbedContainer from "./TabbedContainer"
+import WorksTabs from "./WorksTabs"
 
 function Portfolio() {
   return (
@@ -12,11 +11,7 @@ function Portfolio() {
         <h1 className="project-heading">
           Our <strong className="purple">Work </strong>
         </h1>
-          <TabbedContainer>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-              <p>test</p>
-            </Row>
-          </TabbedContainer>
+          <WorksTabs />
       </Container>
     </Container>
     <Particle />
