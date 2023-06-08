@@ -23,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Placeholder</strong>
+               <strong className="purple">tT.</strong>
             </h1>
             <Aboutcard />
           </Col>
