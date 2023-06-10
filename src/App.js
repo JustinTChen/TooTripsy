@@ -5,8 +5,9 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer";
+import NotFound from "./components/NotFound";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
@@ -39,6 +40,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           {/* TODO: /travels path */}
           <Route path="*" element={<Navigate to="/"/>} />
+          <Route component={NotFound} />
         </Routes>
         <Footer />
       </div>
