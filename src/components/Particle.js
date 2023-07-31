@@ -1,5 +1,5 @@
-import React from "react";
-import Particles from "react-tsparticles";
+import React from 'react'
+import Particles from 'react-tsparticles'
 
 function Particle() {
   return (
@@ -19,7 +19,7 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            direction: "right",
+            direction: 'right',
             speed: 0.05,
           },
           size: {
@@ -37,7 +37,7 @@ function Particle() {
           events: {
             onclick: {
               enable: true,
-              mode: "push",
+              mode: 'push',
             },
           },
           modes: {
@@ -49,7 +49,7 @@ function Particle() {
         retina_detect: true,
       }}
     />
-  );
+  )
 }
 
-export default Particle;
+export default Particle

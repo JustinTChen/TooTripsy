@@ -3,7 +3,7 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer";
 import NotFound from "./components/NotFound";
 import {
@@ -38,7 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path='/instagram' element={<Instagram />} />
           {/* TODO: /travels path */}
           <Route path="*" element={<Navigate to="/"/>} />

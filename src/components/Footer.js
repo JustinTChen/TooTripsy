@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { SocialIcons } from "./SocialIcons";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { SocialIcons } from './SocialIcons'
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  let date = new Date()
+  let year = date.getFullYear()
   return (
     <Container fluid className="footer">
       <Row>
@@ -16,7 +16,7 @@ function Footer() {
         </Col>
       </Row>
     </Container>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
