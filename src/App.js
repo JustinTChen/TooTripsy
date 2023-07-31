@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import NotFound from "./components/NotFound";
 import {
   HashRouter as Router,
+  Link,
   Route,
   Routes,
   Navigate
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path='/instagram' element={<Instagram />} />
           {/* TODO: /travels path */}
           <Route path="*" element={<Navigate to="/"/>} />
           <Route component={NotFound} />
@@ -46,6 +48,10 @@ function App() {
       </div>
     </Router>
   );
+}
+
+function Instagram() {
+  window.location.replace('https://instagram.com/tootripsy');
 }
 
 export default App;

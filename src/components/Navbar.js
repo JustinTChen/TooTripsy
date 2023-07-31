@@ -11,6 +11,9 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { GiEarthAmerica } from 'react-icons/gi';
+import {
+  AiFillInstagram,
+} from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -93,6 +96,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Our Travels
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                  as={Link}
+                  to="/instagram"
+                  onClick={() => updateExpanded(false)}
+                >
+                  <AiFillInstagram
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Instagram
               </Nav.Link>
             </Nav.Item>
 
