@@ -7,8 +7,9 @@ import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
 import {
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
+  AiFillCamera,
   AiOutlineUser,
+  AiOutlineVideoCamera,
 } from 'react-icons/ai'
 import { GiEarthAmerica } from 'react-icons/gi'
 import { AiFillInstagram } from 'react-icons/ai'
@@ -68,8 +69,14 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
+              <Nav.Link as={Link} to="/clients" onClick={() => updateExpanded(false)}>
+                <AiOutlineVideoCamera style={{ marginBottom: '2px' }} /> Client Work
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link as={Link} to="/gallery" onClick={() => updateExpanded(false)}>
-                <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} />{' '}
+                <AiFillCamera style={{ marginBottom: '2px' }} />{' '}
                 Gallery
               </Nav.Link>
             </Nav.Item>
