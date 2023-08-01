@@ -76,8 +76,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link as={Link} to="/gallery" onClick={() => updateExpanded(false)}>
-                <AiFillCamera style={{ marginBottom: '2px' }} />{' '}
-                Gallery
+                <AiFillCamera style={{ marginBottom: '2px' }} /> Gallery
               </Nav.Link>
             </Nav.Item>
 
