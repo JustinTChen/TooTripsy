@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.229ae165.css",
-    "main.js": "/static/js/main.27b1dbcf.js",
+    "main.js": "/static/js/main.c38145d6.js",
     "static/js/415.a87f15e6.chunk.js": "/static/js/415.a87f15e6.chunk.js",
     "static/js/787.a99a91a1.chunk.js": "/static/js/787.a99a91a1.chunk.js",
     "static/media/Nagano_Hotel.jpg": "/static/media/Nagano_Hotel.317feb5a36a983175acb.jpg",
@@ -15,17 +15,21 @@
     "static/media/Jeep.jpg": "/static/media/Jeep.b0ce0ce0f0ff3df0a3fe.jpg",
     "static/media/Sunset_Coast.jpg": "/static/media/Sunset_Coast.a98947111a16e48ac1a3.jpg",
     "static/media/tt.png": "/static/media/tt.4fa7574a8154c5d24f49.png",
+    "static/media/gallows.png": "/static/media/gallows.2f031fcfc04ca76196ca.png",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/fairmontESJ.png": "/static/media/fairmontESJ.9ee89c156f82f2472c19.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/cbs.png": "/static/media/cbs.ed7f55abcf78ffc18de3.png",
+    "static/media/dreamsLM.png": "/static/media/dreamsLM.9f097df31a745cfb06dc.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.229ae165.css.map": "/static/css/main.229ae165.css.map",
-    "main.27b1dbcf.js.map": "/static/js/main.27b1dbcf.js.map",
+    "main.c38145d6.js.map": "/static/js/main.c38145d6.js.map",
     "415.a87f15e6.chunk.js.map": "/static/js/415.a87f15e6.chunk.js.map",
     "787.a99a91a1.chunk.js.map": "/static/js/787.a99a91a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.229ae165.css",
-    "static/js/main.27b1dbcf.js"
+    "static/js/main.c38145d6.js"
   ]
 }
