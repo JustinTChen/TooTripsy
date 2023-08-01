@@ -3,6 +3,7 @@ import { React } from 'react';
 import YouTube from 'react-youtube';
 
 export default function VideoCard(props) {
+    // eslint-disable-next-line react/prop-types
     const { videoId, entity, location} = props;
 
     let caption = ""

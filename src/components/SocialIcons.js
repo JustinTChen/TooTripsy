@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { AiFillYoutube, AiFillInstagram } from 'react-icons/ai'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTiktok } from '@fortawesome/free-brands-svg-icons'

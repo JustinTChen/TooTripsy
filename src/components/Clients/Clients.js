@@ -15,6 +15,7 @@ function Clients() {
         <Container fluid className="project-section">
           <Container >
             <h1 className="project-heading">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <strong className="purple">Brands </strong> We've Worked With
             </h1>
           </Container>
