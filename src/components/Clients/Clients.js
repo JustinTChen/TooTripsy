@@ -6,6 +6,7 @@ import cbsLogo from "../../Assets/logos/cbs.png"
 import dreamsLMLogo from "../../Assets/logos/dreamsLM.png"
 import gallowsPointLogo from "../../Assets/logos/gallows.png"
 import fairmontESJLogo from "../../Assets/logos/fairmontESJ.png"
+import philoVillasLogo from "../../Assets/logos/philoVillas.png"
 
 function Clients() {
   return (
@@ -72,6 +73,19 @@ function Clients() {
             <img
             src={dreamsLMLogo}
             alt="dreams las mareas"
+            className="img-fluid"
+            style={{ maxHeight: "250px" }}
+            />
+        </Col>
+        <Col md={5} style={{ 
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: '33%',
+        }}>
+            <img
+            src={philoVillasLogo}
+            alt="philo villas"
             className="img-fluid"
             style={{ maxHeight: "250px" }}
             />
