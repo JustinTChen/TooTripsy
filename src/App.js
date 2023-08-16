@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Clients from "./components/Clients/Clients"
+import Contact from "./components/Contact/Contact"
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path='/instagram' element={<Instagram />} />
           {/* TODO: /travels path */}
           <Route path="*" element={<Navigate to="/"/>} />

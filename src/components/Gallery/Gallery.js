@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+import { Container, Row } from "react-bootstrap";
 import WorksTabs from "./WorksTabs"
 
 function Gallery() {
@@ -17,7 +16,6 @@ function Gallery() {
           </Container>
         </Container>
       </Row>
-      <Particle />
     </>
   );
 }

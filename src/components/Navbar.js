@@ -10,6 +10,7 @@ import {
   AiFillCamera,
   AiOutlineUser,
   AiOutlineVideoCamera,
+  AiOutlineForm
 } from 'react-icons/ai'
 import { GiEarthAmerica } from 'react-icons/gi'
 import { AiFillInstagram } from 'react-icons/ai'
@@ -81,8 +82,8 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/travels" onClick={() => updateExpanded(false)}>
-                <GiEarthAmerica style={{ marginBottom: '2px' }} /> Our Travels
+              <Nav.Link as={Link} to="/contact" onClick={() => updateExpanded(false)}>
+                <AiOutlineForm style={{ marginBottom: '2px' }} /> Contact Us
               </Nav.Link>
             </Nav.Item>
 
