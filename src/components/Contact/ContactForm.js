@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 
+
+import { Row, Col } from "react-bootstrap";
+
+import emailjs from 'emailjs-com';
+
+import { SERVICE_ID, TEMPLATE_ID, EMAIL_PK } from '../../constants';
+
 export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -8,9 +15,12 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // You should implement the logic to send the form data to your backend here.
-    // Use an HTTP POST request to send the form data to your server.
-    // Your server will then handle the email forwarding using nodemailer or any other email sending library.
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, EMAIL_PK)
+      .then((result) => {
+          window.location.reload()
+      }, (error) => {
+          console.log(error.text);
+      });
 
     console.log({
       name,
@@ -25,37 +35,51 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-        />
+    <>
+    <Col style={{ width: "15%", height: "100%" }} />
+    <Col style={{ width: "70%", height: "100%" }} >
+      <div className='form-box'>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              placeholder='Name'
+              name="from_name"
+              required
+            />
+          </div>
+          <br></br>
+          <div>
+            <input
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder='Email'
+              name="from_email"
+              required
+            />
+          </div>
+          <br></br>
+          <div>
+            <textarea
+              id="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              placeholder='Message'
+              name="message"
+              required
+            />
+          </div>
+          <br></br>
+          <button className="form-button" type="submit"><strong>Send Message </strong></button>
+        </form>
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea
-          id="message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          required
-        />
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
+    </Col>
+    <Col style={{ width: "15%", height: "100%" }} />
+    </>
   );
 };

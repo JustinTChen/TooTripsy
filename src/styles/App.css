@@ -14,7 +14,7 @@
 }
 
 .App-header {
-	background-color: #282c34;
+	background-color: rgba(255, 255, 240, 0.6);
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -45,7 +45,7 @@
 
 .tab-buttons button {
 	padding: 10px 20px;
-	background-color: #ccc;
+	background-color: #fffff0;
 	border: none;
 	border-radius: 5px;
 	margin-right: 5px;
@@ -53,8 +53,8 @@
 }
 
 .tab-buttons button.active {
-	background-color: #e5e0e8;
-	color: #fff;
+	background-color: #c59dce;
+	color: #000000;
 }
 
 .tab-content {

@@ -1,14 +1,14 @@
 html {
 	--section-background-color: linear-gradient(
 		to bottom left,
-		rgba(17, 16, 16, 0.582),
-		rgba(12, 8, 24, 0.904)
+		rgba(255, 255, 255, 0.8),
+		rgba(255, 255, 240, 0.8)
 	);
 
 	--image-gradient: linear-gradient(
 		to bottom left,
-		rgba(17, 16, 16, 0.678),
-		rgba(12, 10, 22, 0.863)
+		rgba(255, 255, 255, 0.8),
+		rgba(255, 255, 240, 0.8)
 	);
 
 	--imp-text-color: #19181a;
@@ -282,14 +282,14 @@ video {
 
 .Typewriter__wrapper {
 	font-size: 1.6em !important;
-	color: #e7e5e7 !important;
+	color: #ffffff !important;
 	font-weight: 600 !important;
 	justify-content: center;
 	align-items: center;
 }
 .Typewriter__cursor {
 	font-size: 1.8em !important;
-	color: #d4d1d5 !important;
+	color: #949494 !important;
 	justify-content: center;
 	align-items: center;
 }
@@ -430,7 +430,7 @@ video {
 }
 
 .blockquote-footer {
-	color: #a588c0 !important;
+	color: #fffff0 !important;
 }
 /* --------- */
 /* Projects */
@@ -541,31 +541,10 @@ video {
 	color: white !important;
 }
 
-.tech-icons {
-	font-size: 4.5em !important;
-	margin: 15px !important;
-	padding: 10px !important;
-	opacity: 0.93 !important;
-	border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-	vertical-align: middle !important;
-	text-align: center !important;
-	border-radius: 5px !important;
-	display: table !important;
-	box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-	overflow: hidden !important;
-	transition: all 0.4s ease 0s !important;
-}
-
-@media (max-width: 767px) {
-	.tech-icons {
-		margin: 10px !important;
-	}
-}
-
 .tech-icons:hover {
 	transform: scale(1.05) !important;
 	overflow: hidden !important;
-	border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+	border: 2.2px solid rgba(255, 255, 240, 0.4) !important;
 }
 .tech-icon-images {
 	padding: 20px !important;
@@ -588,4 +567,56 @@ video {
 	.about-img {
 		padding-top: 0 !important;
 	}
+}
+
+/* --------- */
+/* Contact */
+/* --------- */
+
+.contact-section {
+	position: relative !important;
+	padding-top: 150px !important;
+	padding-bottom: 30px !important;
+	background-image: var(--section-background-color) !important;
+	color: white !important;
+	box-sizing: border-box;
+}
+
+.form-box {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	background-color: rgba(255, 255, 240, 0.6);
+	box-shadow: 3px 3px 6px 5px #ddd;
+	border-radius: 8px;
+}
+
+input {
+	padding: 10px 30px;
+	background-color: rgba(255, 255, 240, 1) !important;
+	color: #c59dce;
+	border: none;
+	border-radius: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+textarea {
+	padding: 20px 30px;
+	background-color: rgba(255, 255, 240, 1) !important;
+	color: #c59dce;
+	border: none;
+	border-radius: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.form-button {
+	padding: 10px 20px;
+	background-color: #fffff0;
+	color: #c59dce;
+	border: none;
+	border-radius: 5px;
+	margin-right: 5px;
+	cursor: pointer;
 }

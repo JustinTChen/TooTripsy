@@ -93,3 +93,8 @@ export const IMAGES = [
         caption: CAPTION10,
     },
 ]
+
+// EMAIL KEYS
+export const SERVICE_ID = 'service_zxpp87g'
+export const TEMPLATE_ID = 'template_hl3gyub'
+export const EMAIL_PK = 't6H4xmaCnu7sBb66-'
