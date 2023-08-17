@@ -3,7 +3,7 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Clients from "./components/Clients/Clients"
 import Contact from "./components/Contact/Contact"
-import Home from "./components/Home/Home";
+import Home from "./components/Home";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer";

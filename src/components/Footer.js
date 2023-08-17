@@ -6,7 +6,7 @@ function Footer() {
   let date = new Date()
   let year = date.getFullYear()
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style= {{ position: "absolute", bottom: "0px" }}>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} TooTripsy</h3>
