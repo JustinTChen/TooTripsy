@@ -11,7 +11,7 @@ export default function Contact() {
             <img src={logo} style={{ width: "15%", height: "15%", justifyContent: "center" }}></img>
             <Row style={{ height: "20%", justifyContent: "center", paddingBottom: "10px" }} >
                     <h1 className="project-heading">
-                        <strong>Contact Us!</strong>
+                        <strong>CONTACT</strong>
                     </h1>
             </Row>
             <Row style={{ height: "70%", justifyContent: "center", paddingBottom: "10px" }} >

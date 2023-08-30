@@ -14,19 +14,20 @@ function Clients() {
       <Container fluid className="about-section" style={{top: "10px", bottom: "10px"}}>
         <Row>
           
-            <Container >
+            <Container>
               <h1 className="project-heading">
               {/* eslint-disable-next-line react/no-unescaped-entities */}
-              <strong>Brands </strong> We've Worked With
+              <strong>BRANDS </strong> WE'VE WORKED WITH
               </h1>
           </Container>
         </Row>
         <Row>
+          <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '33%', 
+              width: '25%', 
           }}>
               <img
               src={fairmontESJLogo}
@@ -39,7 +40,7 @@ function Clients() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center', 
-              width: '33%',
+              width: '25%',
           }}>
               <img
               src={gallowsPointLogo}
@@ -52,7 +53,7 @@ function Clients() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '33%',
+              width: '25%',
           }}>
               <img
               src={cbsLogo}
@@ -61,13 +62,15 @@ function Clients() {
               style={{ maxHeight: "250px" }}
               />
           </Col>
+          <Col style={{ width: '12.5%' }}/>
         </Row>
         <Row>
+        <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '33%',
+              width: '25%',
           }}>
               <img
               src={dreamsLMLogo}
@@ -80,7 +83,7 @@ function Clients() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '33%',
+              width: '25%',
           }}>
               <img
               src={philoVillasLogo}
@@ -93,7 +96,7 @@ function Clients() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '33%',
+              width: '25%',
           }}>
               <img
               src={radwoodLogo}
@@ -102,6 +105,7 @@ function Clients() {
               style={{ maxHeight: "250px" }}
               />
           </Col>
+          <Col style={{ width: '12.5%' }}/>
         </Row>
       </Container>
       <Row style={{ height: '10%' }}></Row>

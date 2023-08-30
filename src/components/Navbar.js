@@ -9,7 +9,7 @@ import {
   AiOutlineHome,
   AiFillCamera,
   AiOutlineUser,
-  AiOutlineVideoCamera,
+  AiOutlineProject,
   AiOutlineForm
 } from 'react-icons/ai'
 import { GiEarthAmerica } from 'react-icons/gi'
@@ -59,8 +59,8 @@ function NavBar() {
           <Nav style={{ float: "left" }} defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                  Too
-                  <strong className="main-name">Tripsy</strong>
+                  TOO
+                  <strong className="main-name">TRIPSY</strong>
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -68,31 +68,31 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> About Us
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> ABOUT US
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/clients" onClick={() => updateExpanded(false)}>
-                <AiOutlineVideoCamera style={{ marginBottom: '2px' }} /> Client Work
+                <AiOutlineProject style={{ marginBottom: '2px' }} /> BRANDS
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/gallery" onClick={() => updateExpanded(false)}>
-                <AiFillCamera style={{ marginBottom: '2px' }} /> Gallery
+                <AiFillCamera style={{ marginBottom: '2px' }} /> WORK
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/contact" onClick={() => updateExpanded(false)}>
-                <AiOutlineForm style={{ marginBottom: '2px' }} /> Contact Us
+                <AiOutlineForm style={{ marginBottom: '2px' }} /> CONTACT
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/instagram" onClick={() => updateExpanded(false)}>
-                <AiFillInstagram style={{ marginBottom: '2px' }} /> Instagram
+                <AiFillInstagram style={{ marginBottom: '2px' }} /> INSTAGRAM
               </Nav.Link>
             </Nav.Item>
 
