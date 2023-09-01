@@ -11,8 +11,8 @@ import radwoodLogo from "../../Assets/logos/radwood.png"
 
 function Clients() {
   return (
-    <div style={{ paddingBottom: "10%", color: "#c6c6c6" }}>
-      <Container fluid className="about-section">
+    <div style={{ paddingBottom: "10vh", color: "#c6c6c6" }}>
+      <Container fluid className="client-section">
         <Row>
           
             <Container>
@@ -77,7 +77,7 @@ function Clients() {
               src={philoVillasLogo}
               alt="philo villas"
               className="img-clients"
-              style={{ transform: 'scale(0.75)' }}
+              style={{ transform: 'scale(0.65)' }}
               />
           </Col>
           <Col md={5} style={{ 
@@ -88,7 +88,7 @@ function Clients() {
               src={radwoodLogo}
               alt="radwood"
               className="img-clients"
-              style={{ transform: 'scale(0.75)' }}
+              style={{ transform: 'scale(0.65)' }}
               />
           </Col>
           <Col style={{ width: '12.5%' }}/>

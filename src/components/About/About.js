@@ -29,7 +29,7 @@ function About() {
           <h1 className="project-heading">
             WHO WE <strong className="purple"> ARE </strong>
           </h1>
-          <YouTube videoId={INTRO_VIDEO} />
+          <YouTube videoId={INTRO_VIDEO} style={{ paddingBottom: "10vh%" }}/>
           
         </Container>
       </Container>
