@@ -48,7 +48,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
           <Route component={NotFound} />
         </Routes>
-        <Footer />
+        <Footer style={{ width: "100vw" }}/>
       </div>
     </Router>
   );

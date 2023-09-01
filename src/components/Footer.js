@@ -6,17 +6,25 @@ function Footer() {
   let date = new Date()
   let year = date.getFullYear()
   return (
-    <Container fluid className="footer">
+    <>
+    <Container id="tt-footer" fluid className="footer">
       <Row>
         <Col style={{ width: "33%" }}/>
-        <Col className="footer-body" style={{ width: "33%" }}>
-          <SocialIcons></SocialIcons>
+        <Col className="footer-body" style={{ width: "34%" }}>
+          <SocialIcons/>    
         </Col>
         <Col className="footer-copywright" style={{ width: "33%", justifyContent: "center", verticalAlign: "middle"}}>
-          <h3>Copyright © {year} TooTripsy LLC.</h3>
+          <h3 
+            style={ 
+              window.innerWidth > 480 ? {} : {transform: "scale(0.5)"}
+            }
+          >
+            Copyright © {year} TooTripsy LLC.
+          </h3>
         </Col>
       </Row>
     </Container>
+    </>
   )
 }
 

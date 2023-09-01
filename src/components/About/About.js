@@ -10,7 +10,7 @@ import Type from "../Type";
 function About() {
   return (
     <>
-      <Container fluid className="about-section" style={{ height: "100%" }}>
+      <Container fluid className="about-section" style={{ height: "100%", width: "100vw"}}>
         <Container style={{ height: "100%" }}>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
