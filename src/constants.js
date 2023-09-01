@@ -24,8 +24,9 @@ export const INTRO_VIDEO = "r4IoHRtPl8"
 export const VIDEO1 = "YpnpCLzfSUw"
 export const VIDEO2 = "bfQHmiRHDoM"
 export const VIDEO3 = "beyU7mtSX0k"
-export const VIDEO4 = "d7aJlIzcIJA"
-export const VIDEO5 = "TsSoXte_JyQ"
+export const VIDEO4 = "Dz9FC4K_fUA"
+export const VIDEO5 = "d7aJlIzcIJA"
+export const VIDEO6 = "TsSoXte_JyQ" 
 
 
 // Image Gallery

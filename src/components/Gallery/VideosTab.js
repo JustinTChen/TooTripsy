@@ -8,6 +8,7 @@ import {
     VIDEO3,
     VIDEO4,
     VIDEO5,
+    VIDEO6,
 } from '../../constants';
 import VideoCard from './VideoCard'
 
@@ -55,6 +56,15 @@ const VideosTabs = () => {
                 <Col style={{ width: "70%" }}>
                     <VideoCard 
                         videoId={VIDEO5} 
+                    />
+                </Col>
+                <Col style={{ width: "15%" }} />
+            </Row>
+            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Col style={{ width: "15%" }} />
+                <Col style={{ width: "70%" }}>
+                    <VideoCard 
+                        videoId={VIDEO6} 
                     />
                 </Col>
                 <Col style={{ width: "15%" }} />

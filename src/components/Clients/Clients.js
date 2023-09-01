@@ -5,13 +5,14 @@ import cbsLogo from "../../Assets/logos/cbs.png"
 import dreamsLMLogo from "../../Assets/logos/dreamsLM.png"
 import gallowsPointLogo from "../../Assets/logos/gallows.png"
 import fairmontESJLogo from "../../Assets/logos/fairmontESJ.png"
+import foodcyLogo from "../../Assets/logos/foodcy.webp"
 import philoVillasLogo from "../../Assets/logos/philoVillas.png"
 import radwoodLogo from "../../Assets/logos/radwood.png"
 
 function Clients() {
   return (
-    <>
-      <Container fluid className="about-section" style={{top: "10px", bottom: "10px", height: "90%"}}>
+    <div style={{ paddingBottom: "10%", color: "#c6c6c6" }}>
+      <Container fluid className="about-section">
         <Row>
           
             <Container>
@@ -21,10 +22,10 @@ function Clients() {
               </h1>
           </Container>
         </Row>
-        <Row>
+        <Row style={{ height: "20%", marginBottom: "10px"}}>
           <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               width: '25%', 
@@ -37,7 +38,7 @@ function Clients() {
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center', 
               width: '25%',
@@ -50,7 +51,7 @@ function Clients() {
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               width: '25%',
@@ -64,10 +65,10 @@ function Clients() {
           </Col>
           <Col style={{ width: '12.5%' }}/>
         </Row>
-        <Row>
+        <Row style={{ height: "20%", marginBottom: "10px"}}>
         <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               width: '25%',
@@ -80,7 +81,7 @@ function Clients() {
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               width: '25%',
@@ -93,7 +94,7 @@ function Clients() {
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'flex',
+              display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               width: '25%',
@@ -107,9 +108,39 @@ function Clients() {
           </Col>
           <Col style={{ width: '12.5%' }}/>
         </Row>
+        <Row style={{ height: "20%", marginBottom: "10px"}}>
+        <Col style={{ width: '12.5%' }}/>
+          <Col md={5} style={{ 
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: '25%',
+          }}>
+              <img
+              src={foodcyLogo}
+              alt="foodcy"
+              className="img-fluid"
+              style={{ maxHeight: "250px" }}
+              />
+          </Col>
+          <Col md={5} style={{ 
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: '25%',
+          }}>
+          </Col>
+          <Col md={5} style={{ 
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: '25%',
+          }}>
+          </Col>
+          <Col style={{ width: '12.5%' }}/>
+        </Row>
       </Container>
-      <Row style={{ height: '10%' }}></Row>
-    </>
+    </div>
   );
 }
 

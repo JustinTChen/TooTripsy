@@ -46,7 +46,7 @@ export default function ContactForm() {
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder='Name'
+              placeholder='NAME'
               name="from_name"
               required
             />
@@ -58,7 +58,7 @@ export default function ContactForm() {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder='Email'
+              placeholder='EMAIL'
               name="from_email"
               required
             />
@@ -69,7 +69,7 @@ export default function ContactForm() {
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder='Message'
+              placeholder='MESSAGE'
               name="message"
               required
             />

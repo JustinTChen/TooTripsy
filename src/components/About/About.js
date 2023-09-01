@@ -9,9 +9,9 @@ import Type from "../Type";
 
 function About() {
   return (
-    <div style={{ paddingBottom: "10%" }}>
+    <>
       <Container fluid className="about-section" style={{ height: "100%" }}>
-        <Container>
+        <Container style={{ height: "100%" }}>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
               style={{
@@ -33,7 +33,7 @@ function About() {
           
         </Container>
       </Container>
-    </div>
+    </>
   );
 }
 

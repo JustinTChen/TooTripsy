@@ -13,7 +13,7 @@ import {
 // AiOutlineHome,
 // AiFillCamera,
 import { AiFillInstagram } from 'react-icons/ai'
-import { RGBADepthPacking } from 'three'
+import { INSTAGRAM_LINK } from '../constants'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false)
@@ -35,7 +35,7 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? 'sticky' : 'navbar'}
-      style={{ background: 'rgba(0, 0, 0, 0.4)'}}
+      style={{ background: 'rgba(0, 0, 0, 0.3)'}}
     >
       <Container>
         {/*
@@ -92,26 +92,11 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/instagram" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/instagram" target="_blank" onClick={() => updateExpanded(false)}>
                 <AiFillInstagram style={{ marginBottom: '2px' }} /> INSTAGRAM
               </Nav.Link>
             </Nav.Item>
-
-            {/* 
             
-            TODO: Add form to forward message to email
-            
-            <Nav.Item className="email-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
-            */}
           </Nav>
         </Navbar.Collapse>
       </Container>
