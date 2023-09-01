@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.13b93a02.css",
-    "main.js": "/static/js/main.d8e17e22.js",
+    "main.css": "/static/css/main.e3a5bb68.css",
+    "main.js": "/static/js/main.e4a9a570.js",
     "static/js/787.a99a91a1.chunk.js": "/static/js/787.a99a91a1.chunk.js",
     "static/media/homePageVideo.mp4": "/static/media/homePageVideo.dc1ee24c9d316c4d29b9.mp4",
+    "static/media/single_rock.jpg": "/static/media/single_rock.4f5159c4564616021b71.jpg",
+    "static/media/rio-10.jpg": "/static/media/rio-10.10f7df16e7ba621681b1.jpg",
+    "static/media/rio-09.jpg": "/static/media/rio-09.672d615ce446ee93cfab.jpg",
     "static/media/Nagano_Hotel.jpg": "/static/media/Nagano_Hotel.317feb5a36a983175acb.jpg",
     "static/media/Kyoto_Hotel.jpg": "/static/media/Kyoto_Hotel.2cd3fa251172faca403f.jpg",
     "static/media/Kanazawa.jpg": "/static/media/Kanazawa.7c9b2bc60021e4a869eb.jpg",
+    "static/media/cascade_range.jpg": "/static/media/cascade_range.c52b911779b2ce7023e8.jpg",
+    "static/media/Porsche_sunset.jpg": "/static/media/Porsche_sunset.03cc5571d3d807e4986a.jpg",
     "static/media/Nara_Temple.jpg": "/static/media/Nara_Temple.d07c0e78221deb8498a8.jpg",
     "static/media/Osaka_Castle.jpg": "/static/media/Osaka_Castle.162f1f32891756877142.jpg",
     "static/media/Kyoto_Temple.jpg": "/static/media/Kyoto_Temple.df149fbe465f62dee1c6.jpg",
     "static/media/Tilden_Golf.jpg": "/static/media/Tilden_Golf.1705e167c0d7d84f46f6.jpg",
     "static/media/Tilden_Golf_Course.jpg": "/static/media/Tilden_Golf_Course.b56a0b0370a3fd13c860.jpg",
+    "static/media/pulpit_ledge.jpg": "/static/media/pulpit_ledge.a4c3085034be5aa5dede.jpg",
     "static/media/Jeep.jpg": "/static/media/Jeep.b0ce0ce0f0ff3df0a3fe.jpg",
     "static/media/Sunset_Coast.jpg": "/static/media/Sunset_Coast.a98947111a16e48ac1a3.jpg",
     "static/media/tt.png": "/static/media/tt.4fa7574a8154c5d24f49.png",
@@ -23,12 +29,12 @@
     "static/media/foodcy.webp": "/static/media/foodcy.818a4d736b2daab54a5f.webp",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.13b93a02.css.map": "/static/css/main.13b93a02.css.map",
-    "main.d8e17e22.js.map": "/static/js/main.d8e17e22.js.map",
+    "main.e3a5bb68.css.map": "/static/css/main.e3a5bb68.css.map",
+    "main.e4a9a570.js.map": "/static/js/main.e4a9a570.js.map",
     "787.a99a91a1.chunk.js.map": "/static/js/787.a99a91a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13b93a02.css",
-    "static/js/main.d8e17e22.js"
+    "static/css/main.e3a5bb68.css",
+    "static/js/main.e4a9a570.js"
   ]
 }
