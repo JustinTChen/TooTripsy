@@ -11,7 +11,7 @@ import radwoodLogo from "../../Assets/logos/radwood.png"
 function Clients() {
   return (
     <>
-      <Container fluid className="about-section" style={{top: "10px", bottom: "10px"}}>
+      <Container fluid className="about-section" style={{top: "10px", bottom: "10px", height: "90%"}}>
         <Row>
           
             <Container>

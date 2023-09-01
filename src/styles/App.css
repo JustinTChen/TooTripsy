@@ -37,10 +37,12 @@
 	}
 }
 
+@import url("https://db.onlinewebfonts.com/c/f7d1b2995a6dff7abcda304d226aa67d?family=Helvetica+W01+Bold");
 .tab-buttons {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 10px;
+	font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif, !important;
 }
 
 .tab-buttons button {

@@ -6,14 +6,14 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
 import {
-  AiOutlineHome,
-  AiFillCamera,
-  AiOutlineUser,
-  AiOutlineProject,
   AiOutlineForm
 } from 'react-icons/ai'
-import { GiEarthAmerica } from 'react-icons/gi'
+// AiOutlineUser,
+// AiOutlineProject,
+// AiOutlineHome,
+// AiFillCamera,
 import { AiFillInstagram } from 'react-icons/ai'
+import { RGBADepthPacking } from 'three'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false)
@@ -35,6 +35,7 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? 'sticky' : 'navbar'}
+      style={{ background: 'rgba(0, 0, 0, 0.4)'}}
     >
       <Container>
         {/*
@@ -68,19 +69,19 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> ABOUT US
+                ABOUT
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/clients" onClick={() => updateExpanded(false)}>
-                <AiOutlineProject style={{ marginBottom: '2px' }} /> BRANDS
+                BRANDS
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/gallery" onClick={() => updateExpanded(false)}>
-                <AiFillCamera style={{ marginBottom: '2px' }} /> WORK
+                WORK
               </Nav.Link>
             </Nav.Item>
 

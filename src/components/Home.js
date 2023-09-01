@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeVideo from "../Assets/salesforce.mp4";
+import homeVideo from "../Assets/homePageVideo.mp4";
 import Type from "./Type";
 
 function Home() {

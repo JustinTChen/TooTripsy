@@ -16,17 +16,18 @@ const WorksTabs = () => {
         <button
           className={activeTab === 1 ? 'active' : ''}
           onClick={() => handleTabClick(1)}
+          style={{ fontFamily: "helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif" }}
         >
-          Videos
+          VIDEOS
         </button>
         <button
           className={activeTab === 2 ? 'active' : ''}
           onClick={() => handleTabClick(2)}
         >
-          Photos
+          PHOTOS
         </button>
       </div>
-      <div>
+      <div style={{ paddingBottom: "10%" }}>
         {activeTab === 1 && <div><VideosTabs /></div>}
         {activeTab === 2 && <div><PhotoGallery /></div>}
       </div>
