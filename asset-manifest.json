@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.38f9f547.css",
-    "main.js": "/static/js/main.ff7d3b29.js",
+    "main.css": "/static/css/main.b0ea6d9d.css",
+    "main.js": "/static/js/main.d5aefaea.js",
     "static/js/787.a99a91a1.chunk.js": "/static/js/787.a99a91a1.chunk.js",
-    "static/media/salesforce.mp4": "/static/media/salesforce.7c34742e7c2ecd3abf36.mp4",
+    "static/media/homePageVideo.mp4": "/static/media/homePageVideo.dc1ee24c9d316c4d29b9.mp4",
     "static/media/Nagano_Hotel.jpg": "/static/media/Nagano_Hotel.317feb5a36a983175acb.jpg",
     "static/media/Kyoto_Hotel.jpg": "/static/media/Kyoto_Hotel.2cd3fa251172faca403f.jpg",
     "static/media/Kanazawa.jpg": "/static/media/Kanazawa.7c9b2bc60021e4a869eb.jpg",
@@ -22,12 +22,12 @@
     "static/media/dreamsLM.png": "/static/media/dreamsLM.9f097df31a745cfb06dc.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.38f9f547.css.map": "/static/css/main.38f9f547.css.map",
-    "main.ff7d3b29.js.map": "/static/js/main.ff7d3b29.js.map",
+    "main.b0ea6d9d.css.map": "/static/css/main.b0ea6d9d.css.map",
+    "main.d5aefaea.js.map": "/static/js/main.d5aefaea.js.map",
     "787.a99a91a1.chunk.js.map": "/static/js/787.a99a91a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f9f547.css",
-    "static/js/main.ff7d3b29.js"
+    "static/css/main.b0ea6d9d.css",
+    "static/js/main.d5aefaea.js"
   ]
 }
