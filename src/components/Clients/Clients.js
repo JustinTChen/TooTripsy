@@ -25,42 +25,33 @@ function Clients() {
         <Row style={{ height: "20%", marginBottom: "10px"}}>
           <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%', 
           }}>
               <img
               src={fairmontESJLogo}
               alt="fairmont el san juan"
-              className="img-fluid"
-              style={{ maxHeight: "250px" }}
+              className="img-clients"
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center', 
               width: '25%',
           }}>
               <img
               src={gallowsPointLogo}
               alt="gallows point"
-              className="img-fluid"
-              style={{ maxHeight: "450px" }}
+              className="img-clients"
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
               <img
               src={cbsLogo}
               alt="cbs news"
-              className="img-fluid"
-              style={{ maxHeight: "250px" }}
+              className="img-clients"
               />
           </Col>
           <Col style={{ width: '12.5%' }}/>
@@ -68,42 +59,36 @@ function Clients() {
         <Row style={{ height: "20%", marginBottom: "10px"}}>
         <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
               <img
               src={dreamsLMLogo}
               alt="dreams las mareas"
-              className="img-fluid"
-              style={{ maxHeight: "250px" }}
+              className="img-clients"
+              style={{ transform: 'scale(0.85)' }}
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
               <img
               src={philoVillasLogo}
               alt="philo villas"
-              className="img-fluid"
-              style={{ maxHeight: "250px" }}
+              className="img-clients"
+              style={{ transform: 'scale(0.75)' }}
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
               <img
               src={radwoodLogo}
               alt="radwood"
-              className="img-fluid"
-              style={{ maxHeight: "250px" }}
+              className="img-clients"
+              style={{ transform: 'scale(0.75)' }}
               />
           </Col>
           <Col style={{ width: '12.5%' }}/>
@@ -111,29 +96,22 @@ function Clients() {
         <Row style={{ height: "20%", marginBottom: "10px"}}>
         <Col style={{ width: '12.5%' }}/>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
               <img
               src={foodcyLogo}
               alt="foodcy"
-              className="img-fluid"
-              style={{ maxHeight: "250px" }}
+              className="img-clients"
               />
           </Col>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
           </Col>
           <Col md={5} style={{ 
-              display: 'inline-flex',
               alignItems: 'center',
-              justifyContent: 'center',
               width: '25%',
           }}>
           </Col>
