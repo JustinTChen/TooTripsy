@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3a5bb68.css",
-    "main.js": "/static/js/main.e4a9a570.js",
+    "main.css": "/static/css/main.6e845a19.css",
+    "main.js": "/static/js/main.8d7a86b1.js",
     "static/js/787.a99a91a1.chunk.js": "/static/js/787.a99a91a1.chunk.js",
     "static/media/homePageVideo.mp4": "/static/media/homePageVideo.dc1ee24c9d316c4d29b9.mp4",
     "static/media/single_rock.jpg": "/static/media/single_rock.4f5159c4564616021b71.jpg",
@@ -22,19 +22,19 @@
     "static/media/Sunset_Coast.jpg": "/static/media/Sunset_Coast.a98947111a16e48ac1a3.jpg",
     "static/media/tt.png": "/static/media/tt.4fa7574a8154c5d24f49.png",
     "static/media/gallows.png": "/static/media/gallows.2f031fcfc04ca76196ca.png",
+    "static/media/dreams.png": "/static/media/dreams.d91ba62b908f1d305ee7.png",
     "static/media/philoVillas.png": "/static/media/philoVillas.2fdbe8ad369fc996e5ee.png",
-    "static/media/fairmontESJ.png": "/static/media/fairmontESJ.9ee89c156f82f2472c19.png",
+    "static/media/fairmont.png": "/static/media/fairmont.e122db216fc62ddd4aaa.png",
     "static/media/cbs.png": "/static/media/cbs.ed7f55abcf78ffc18de3.png",
-    "static/media/dreamsLM.png": "/static/media/dreamsLM.9f097df31a745cfb06dc.png",
     "static/media/foodcy.webp": "/static/media/foodcy.818a4d736b2daab54a5f.webp",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.e3a5bb68.css.map": "/static/css/main.e3a5bb68.css.map",
-    "main.e4a9a570.js.map": "/static/js/main.e4a9a570.js.map",
+    "main.6e845a19.css.map": "/static/css/main.6e845a19.css.map",
+    "main.8d7a86b1.js.map": "/static/js/main.8d7a86b1.js.map",
     "787.a99a91a1.chunk.js.map": "/static/js/787.a99a91a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a5bb68.css",
-    "static/js/main.e4a9a570.js"
+    "static/css/main.6e845a19.css",
+    "static/js/main.8d7a86b1.js"
   ]
 }
