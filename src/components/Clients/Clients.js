@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import cbsLogo from "../../Assets/logos/cbs.png"
-import dreamsLMLogo from "../../Assets/logos/dreamsLM.png"
+import dreamsLogo from "../../Assets/logos/dreams.png"
 import gallowsPointLogo from "../../Assets/logos/gallows.png"
-import fairmontESJLogo from "../../Assets/logos/fairmontESJ.png"
+import fairmontLogo from "../../Assets/logos/fairmont.png"
 import foodcyLogo from "../../Assets/logos/foodcy.webp"
 import philoVillasLogo from "../../Assets/logos/philoVillas.png"
 import radwoodLogo from "../../Assets/logos/radwood.png"
@@ -29,7 +29,7 @@ function Clients() {
               width: '25%', 
           }}>
               <img
-              src={fairmontESJLogo}
+              src={fairmontLogo}
               alt="fairmont el san juan"
               className="img-clients"
               />
@@ -63,7 +63,7 @@ function Clients() {
               width: '25%',
           }}>
               <img
-              src={dreamsLMLogo}
+              src={dreamsLogo}
               alt="dreams las mareas"
               className="img-clients"
               style={{ transform: 'scale(0.85)' }}
